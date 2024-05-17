@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Upload Resume</h1>
+        <form id="upload-form" enctype="multipart/form-data">
+            <input type="file" class="form-control mb-2" name="file" accept=".pdf,.doc,.docx">
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+        <div id="message" class="mt-3"></div>
+    </div>
+    <script src="upload_resume.js"></script>
+</body>
+</html>

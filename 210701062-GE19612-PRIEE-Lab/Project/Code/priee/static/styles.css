@@ -1,0 +1,138 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.header {
+    text-align: center;
+    color: #343a40;
+}
+
+/* Styles for Welcome Page (module 1) */
+.welcome-container {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-header {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+.welcome-text {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+/* Styles for Assessment Generation Page (module 2) */
+.generate-assessment-container {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.generate-assessment-header {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+.generate-assessment-text {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+/* Styles for Resume Uploading Page (module 3) */
+.upload-resume-container {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-resume-header {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+/* Styles for View Score Page (module 4) */
+.view-score-container {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.view-score-header {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+/* Styles for Job Recommendation Page (module 5) */
+.job-recommendation-container {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-recommendation-header {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+/* Styles for Assessment Page (module 6) */
+.assessment-container {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.assessment-header {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+.assessment-question {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+/* Pagination styles */
+.pagination {
+    justify-content: center;
+}
+
+.page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.page-link {
+    color: #007bff;
+}
+
+/* Additional styles */
+.mt-3 {
+    margin-top: 20px;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}

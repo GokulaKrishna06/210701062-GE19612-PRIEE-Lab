@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to urCareer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            margin-top: 50px;
+        }
+        
+        .header {
+            text-align: center;
+            color: #343a40;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to urCareer!</h1>
+    <p>This is your gateway to a successful career. Upload your resume now!</p>
+    <form action="/upload_resume" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="resumeFile">
+        <button type="submit">Upload Resume</button>
+    </form>
+    <script src="{{ url_for('static', filename='welcome.js') }}"></script>
+</body>
+</html>
